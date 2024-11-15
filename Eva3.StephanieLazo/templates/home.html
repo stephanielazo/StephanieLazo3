@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+    <div class="container">
+        <form method="POST">
+            <button type="submit" name="ejercicio" value="1" class="btn">Ejercicio 1</button>
+            <button type="submit" name="ejercicio" value="2" class="btn">Ejercicio 2</button>
+        </form>
+    </div>
+</body>
+</html>
